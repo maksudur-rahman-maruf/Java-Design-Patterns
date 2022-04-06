@@ -1,15 +1,8 @@
 class A{  
- private static A obj;  
+ private static A obj=new A(); // Early, instance will be created at load time  
  private A(){}  
    
  public static A getA(){  
-   if (obj == null){  
-      synchronized(Singleton.class){  
-        if (obj == null){  
-            obj = new Singleton();//instance will be created at request time  
-        }  
-    }              
-    }  
   return obj;  
  }  
   
