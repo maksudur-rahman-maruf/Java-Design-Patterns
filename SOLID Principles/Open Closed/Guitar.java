@@ -1,14 +1,14 @@
 public class Guitar {
 
-    private String model;
-    private String color;
-    private int price;
+    public String model;
+    public String color;
+    public int price;
 
     // Constructors, getters & setters
 }
 
 class ElectricGuitar extends Guitar {
-    private String electricPort;
+    public String electricPort;
 
     // constructor, getters + setters
 
