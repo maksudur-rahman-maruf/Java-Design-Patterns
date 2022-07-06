@@ -1,6 +1,8 @@
-## Principle: if S is a subtype of T, then objects of type T
- in a program may be replaced with objects of type S without
- altering any of the desirable properties of that program.
+
+ 
+ ## the Liskov Substitution Principle (LSP) states 
+ that objects of a superclass should be replaceable with objects 
+ of its subclasses without breaking the application.
 
 ## Bad example
 public class Bird{
